@@ -133,6 +133,7 @@ Un PersistentVolumeClaim (PVC) es una solicitud de almacenamiento por un usuario
     ![Screen Shot 2022-03-15 at 13 30 17](https://user-images.githubusercontent.com/30850990/158456655-62915c14-1778-4552-a33b-117479d1a12d.png)
 
 - Video de ejemplo:
+
 https://user-images.githubusercontent.com/30850990/158456061-b26af9d4-a6b3-4831-b3f2-35bd18715ada.mov
 
 ## Referencias
