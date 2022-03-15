@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-volumes
+  labels:
+    app: test
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: test
+  template:
+    metadata:
+      name: test-volumes
+      labels:
+        app: test
+    spec:
+      volumes:
+        - name: test-volume
+          persistentVolumeClaim:
+            claimName: efs-claim
+      containers:
+        - name: nginx
+          image: nginx
+          volumeMounts:
+            - mountPath: "/usr/share/nginx/html"
+              name: test-volume
