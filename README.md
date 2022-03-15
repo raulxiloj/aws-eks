@@ -75,7 +75,8 @@ Y tenemos listo nuestro cluster para poder ejecutar deployments, pods, services,
 
 ## Ejercicios
 - [Desplegar un contenedor que contenga tus datos y agregar un dns.](exercise-1/README.md)
-- [Horizontal Pod Autoscaling](exercise-2/Readme.md)
+- [Horizontal Pod Autoscaling](exercise-2/README.md)
+- [Volumenes](exercise-3/README.md)
 
 ## ⚙️ Requerimientos
 - Una cuenta de aws
